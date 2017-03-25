@@ -8,8 +8,10 @@
 <script src="js/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 <script>
 $(function(){
-	var imgarray1=["b1.JPG","b2.JPG","b3.JPG","b4.JPG","b5.JPG","b6.JPG","b7.JPG","b8.JPG","b9.JPG","b10.JPG","b11.JPG","b12.JPG","b13.JPG","b14.JPG","b15.JPG","b16.JPG","b17.JPG","b18.JPG","b19.JPG","b20.JPG"];
+	var imgarray1=["b1.jpg","b2.JPG","b3.JPG","b4.JPG","b5.JPG","b6.JPG","b7.JPG","b8.JPG","b9.JPG","b10.JPG","b11.JPG","b12.JPG","b13.JPG","b14.JPG","b15.JPG","b16.JPG","b17.JPG","b18.JPG","b19.JPG","b20.JPG"];
 	var imgarray2=["b1.jpg","b2.jpg","b3.jpg","b4.jpg","b5.jpg","b6.jpg","b7.jpg","b8.jpg","b9.jpg","b10.jpg","b11.jpg","b12.jpg","b13.jpg","b14.jpg","b15.jpg","b16.jpg","b17.jpg","b18.jpg","b19.jpg","b20.jpg"];
+	var imgarray3=["b1.jpg","b2.jpg","b3.jpg","b4.jpg","b5.JPG","b6.JPG","b7.JPG","b8.JPG","b9.JPG","b10.jpg","b11.jpg","b12.jpg","b13.jpg","b14.jpg","b15.jpg","b16.jpg","b17.jpg","b18.jpg","b19.jpg","b20.jpg"];
+	var imgarray4=["b1.JPG","b2.JPG","b3.JPG","b4.JPG","b5.JPG","b6.JPG","b7.JPG","b8.JPG","b9.JPG","b10.JPG","b11.JPG","b12.JPG","b13.JPG","b14.JPG","b15.JPG","b16.JPG","b17.JPG","b18.JPG","b19.JPG","b20.JPG"];
 	var s="";
 	var position="";
 	var imglength=0;
@@ -21,10 +23,10 @@ $(function(){
         imglength=12;position="img1/";imgarray=imgarray2;putimg();
     });
 	$("#flowerBtn").click(function(e) {
-        imglength=15;position="img2/";imgarray=imgarray2;putimg();
+        imglength=15;position="img2/";imgarray=imgarray3;putimg();
     });
 	$("#buildingBtn").click(function(e) {
-        imglength=15;position="img3/";imgarray=imgarray1;putimg();
+        imglength=15;position="img3/";imgarray=imgarray4;putimg();
     });
 function putimg(){
 	s="";
